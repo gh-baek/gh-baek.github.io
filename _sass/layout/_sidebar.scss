@@ -60,6 +60,7 @@ $sidebar-display: 'sidebar-display'; /* the attribute for sidebar display */
     overflow: hidden;
     box-shadow: var(--avatar-border-color) 0 0 0 2px;
     transform: translateZ(0); /* fixed the zoom in Safari */
+    margin: 0 auto; // center alignment
 
     @include bp.sm {
       width: 7rem;
@@ -78,9 +79,9 @@ $sidebar-display: 'sidebar-display'; /* the attribute for sidebar display */
   .profile-wrapper {
     @include mx.mt-mb(2.5rem);
     @extend %clickable-transition;
-
-    padding-left: 2.5rem;
-    padding-right: 1.25rem;
+    padding: 0 1.5rem;
+    // padding-left: 2.5rem;
+    // padding-right: 1.25rem;
     width: 100%;
 
     @include bp.lg {
@@ -103,6 +104,7 @@ $sidebar-display: 'sidebar-display'; /* the attribute for sidebar display */
     font-size: 1.75rem;
     line-height: 1.2;
     letter-spacing: 0.25px;
+    margin: 0 auto; // center alignment
     margin-top: 1.25rem;
     margin-bottom: 0.5rem;
     width: fit-content;
@@ -112,6 +114,8 @@ $sidebar-display: 'sidebar-display'; /* the attribute for sidebar display */
   .site-subtitle {
     font-size: 95%;
     color: var(--site-subtitle-color);
+    text-align: center;
+
     margin-top: 0.25rem;
     word-spacing: 1px;
     -webkit-user-select: none;

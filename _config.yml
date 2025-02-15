@@ -16,7 +16,7 @@ timezone:
 
 title: GH Baek # the main title
 
-tagline: M.S. student at DGIST <br><br>Computer Vision <br>3D Reconstruciton <br> Deep Learning # it will display as the subtitle
+tagline: M.S. student at DGIST<br><br>Computer Vision<br>3D Reconstruciton<br>Deep Learning # it will display as the subtitle
 
 description: >- # used by seo meta and the atom feed
   Computer Vision, 3D Reconstruciton, Deep Learning, Review
